@@ -20,7 +20,7 @@
     "LRANGE"
   ],
   "redis_features": [
-    "caching"
+    "Caching"
   ],
   "redis_modules": [
     "RediSearch"

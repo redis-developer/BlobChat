@@ -1,12 +1,10 @@
 {
   "app_name": "BlobChat",
-  "description": "Find similar-minded people in the text-based chat app.",
-  "hidden": "false",
-  "rank": "21",
+  "description": "Finding Like-Minded people in the Text-based Chat App",
   "type": "Building Block",
   "contributed_by": "Community",
-  "repo_url": "https://github.com/pumpkiny9120/BlobChat",
-  "download_url": "https://github.com/pumpkiny9120/BlobChat/archive/refs/heads/main.zip",
+  "repo_url": "https://github.com/redis-developer/BlobChat",
+  "download_url": "https://github.com/redis-developer/BlobChat/archive/refs/heads/main.zip",
   "hosted_url": "",
   "quick_deploy": "false",
   "deploy_buttons": [],
@@ -28,9 +26,9 @@
     "RediSearch"
   ],
   "app_image_urls": [
-    "https://github.com/pumpkiny9120/BlobChat/blob/main/public/1_index_screenshot.png",
-    "https://github.com/pumpkiny9120/BlobChat/blob/main/public/2_posts_screenshot.png",
-    "https://github.com/pumpkiny9120/BlobChat/blob/main/public/3_chat_screenshot.png"
+    "https://raw.githubusercontent.com/redis-developer/BlobChat/main/public/1_index_screenshot.png",
+    "https://raw.githubusercontent.com/redis-developer/BlobChat/main/public/2_posts_screenshot.png",
+    "https://raw.githubusercontent.com/redis-developer/BlobChat/main/public/3_chat_screenshot.png"
   ],
   "youtube_url": "https://www.youtube.com/watch?v=GNWIR_0s6o4",
   "special_tags": [
@@ -39,5 +37,5 @@
   "verticals": [
     "Others"
   ],
-  "markdown": "https://raw.githubusercontent.com/pumpkiny9120/BlobChat/main/README.md"
+  "markdown": "https://raw.githubusercontent.com/redis-developer/BlobChat/main/README.md"
 }

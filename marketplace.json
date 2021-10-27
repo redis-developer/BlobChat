@@ -4,6 +4,7 @@
   "type": "Building Block",
   "contributed_by": "Community",
   "repo_url": "https://github.com/redis-developer/BlobChat",
+  "preview_image_url": "https://raw.githubusercontent.com/redis-developer/BlobChat/main/images/app_preview_image.png",
   "download_url": "https://github.com/redis-developer/BlobChat/archive/refs/heads/main.zip",
   "hosted_url": "",
   "quick_deploy": "false",

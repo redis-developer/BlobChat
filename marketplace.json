@@ -1,6 +1,6 @@
 {
   "app_name": "BlobChat",
-  "description": "Finding Like-Minded people in the Text-based Chat App",
+  "description": "Finding Like-Minded people in Chat App using RediSearch",
   "type": "Building Block",
   "contributed_by": "Community",
   "repo_url": "https://github.com/redis-developer/BlobChat",

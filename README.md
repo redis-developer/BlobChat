@@ -8,9 +8,9 @@ Select another user's post and start chatting.
 3. Chat for as long as you wish until there's no new response from either party for longer than 3 days (in demo it's set to 60 seconds).  
 
 # How to Blob
-![Make a post](/public/1_index_screenshot.png?raw=true)
-![Find a match](/public/2_posts_screenshot.png?raw=true)
-![Enjoy a chat](/public/3_chat_screenshot.png?raw=true)
+![Make a post](https://raw.githubusercontent.com/redis-developer/BlobChat/main/public/1_index_screenshot.png)
+![Find a match](https://raw.githubusercontent.com/redis-developer/BlobChat/main/public/2_posts_screenshot.png)
+![Enjoy a chat](https://raw.githubusercontent.com/redis-developer/BlobChat/main/public/3_chat_screenshot.png)
 
 # Technology Used
 

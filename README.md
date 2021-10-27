@@ -34,7 +34,7 @@ The local server/client setup to support a web application.
 git clone https://github.com/redis-developer/BlobChat
 ```
 
-```
+
 ## Step 2. Build Docker images locally.
 
 ```

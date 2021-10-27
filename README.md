@@ -13,11 +13,18 @@ Select another user's post and start chatting.
 ![Enjoy a chat](/public/3_chat_screenshot.png?raw=true)
 
 # Technology Used
-**NodeJs/SocketIO/Express**  
+
 The local server/client setup to support a web application.
 
-**RedisMods**  
-This project uses **Redis** to store posts and chat messages, and **RedisSearch** to index and explore potential matches.
+- NodeJS
+- SocketIO
+- Express
+
+# Redis Modules
+
+- Redis - to store posts and chat messages
+- RediSearch - to index and explore potential matches.
+
 
 # Build Locally
 

@@ -2,16 +2,15 @@
 
 BlobChat is a minimalist and elegant chat app. 
 
+1. Make a post and talk about anything you want.
+2. Blob will find similar posts made by other users.  
+Select another user's post and start chatting.
+3. Chat for as long as you wish until there's no new response from either party for longer than 3 days (in demo it's set to 60 seconds).  
 
 # How to Blob
 ![Make a post](/public/1_index_screenshot.png?raw=true)
 ![Find a match](/public/2_posts_screenshot.png?raw=true)
 ![Enjoy a chat](/public/3_chat_screenshot.png?raw=true)
-
-1. Make a post and talk about anything you want.
-2. Blob will find similar posts made by other users.  
-Select another user's post and start chatting.
-3. Chat for as long as you wish until there's no new response from either party for longer than 3 days (in demo it's set to 60 seconds).  
 
 # Technology Used
 **NodeJs/SocketIO/Express**  
@@ -22,15 +21,34 @@ This project uses **Redis** to store posts and chat messages, and **RedisSearch*
 
 # Build Locally
 
-Clone the repo to your local directory and start the application
+## Step 1. Clone the repo to your local directory and start the application
+
 ```
-# 1. Build Docker images locally.
+git clone https://github.com/redis-developer/BlobChat
+```
+
+```
+## Step 2. Build Docker images locally.
+
+```
 docker-compose build
-# 2. Start the Redis server.
+```
+
+## Step 3. Start the Redis server.
+
+```
 docker-compose up -d
-# 3. Install the npm dependencies.
+```
+
+## Step 4. Install the npm dependencies.
+
+```
 npm install
-# 4. Start the chat client (with nodemon).
+```
+
+## Step 5. Start the chat client (with nodemon).
+
+```
 npm run start
 ```
 Now you can go to http://localhost:5000/ to start.

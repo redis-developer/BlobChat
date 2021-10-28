@@ -26,11 +26,7 @@
   "redis_modules": [
     "RediSearch"
   ],
-  "app_image_urls": [
-    "https://raw.githubusercontent.com/redis-developer/BlobChat/main/public/1_index_screenshot.png",
-    "https://raw.githubusercontent.com/redis-developer/BlobChat/main/public/2_posts_screenshot.png",
-    "https://raw.githubusercontent.com/redis-developer/BlobChat/main/public/3_chat_screenshot.png"
-  ],
+  "app_image_urls": [],
   "youtube_url": "",
   "special_tags": [
     "Hackathon"

@@ -21,7 +21,7 @@
     "LRANGE"
   ],
   "redis_features": [
-    "Streams"
+    "Caching"
   ],
   "redis_modules": [],
   "app_image_urls": [],

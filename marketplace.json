@@ -23,7 +23,9 @@
   "redis_features": [
     "Caching"
   ],
-  "redis_modules": [],
+  "redis_modules": [
+     "RediSearch"
+  ],
   "app_image_urls": [],
   "youtube_url": "https://www.youtube.com/watch?v=OOWw_tPG9ls",
   "special_tags": [

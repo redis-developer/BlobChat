@@ -21,18 +21,16 @@
     "LRANGE"
   ],
   "redis_features": [
-    "Caching"
+    "Streams"
   ],
-  "redis_modules": [
-    "RediSearch"
-  ],
+  "redis_modules": [],
   "app_image_urls": [],
-  "youtube_url": "https://www.youtube.com/watch?v=OOWw_tPG9ls",
+  "youtube_url": "",
   "special_tags": [
     "Hackathon"
   ],
   "verticals": [
-    "Others"
+    "Retail"
   ],
-  "markdown": "https://raw.githubusercontent.com/redis-developer/BlobChat/main/README.md"
+  "markdown": "https://raw.githubusercontent.com/redis-developer/ordershop/main/README.md"
 }

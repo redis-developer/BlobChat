@@ -1,6 +1,6 @@
 {
   "app_name": "BlobChat",
-  "description": "Finding Like-Minded people in Chat App using RediSearch",
+  "description": "Finding Like-Minded people in Chat App using Search and Query feature of Redis",
   "type": "Building Block",
   "contributed_by": "Community",
   "repo_url": "https://github.com/redis-developer/BlobChat",
@@ -20,11 +20,11 @@
     "EXPIRE",
     "LRANGE"
   ],
-  "redis_features": [
+  "redis_use_cases": [
     "Caching"
   ],
-  "redis_modules": [
-     "RediSearch"
+  "redis_features": [
+    "Search and Query"
   ],
   "app_image_urls": [],
   "youtube_url": "https://www.youtube.com/watch?v=OOWw_tPG9ls",

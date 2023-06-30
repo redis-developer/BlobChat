@@ -1,11 +1,11 @@
 # BlobChat
 
-BlobChat is a minimalist and elegant chat app. 
+BlobChat is a minimalist and elegant chat app.
 
 1. Make a post and talk about anything you want.
-2. Blob will find similar posts made by other users.  
+2. Blob will find similar posts made by other users.
 Select another user's post and start chatting.
-3. Chat for as long as you wish until there's no new response from either party for longer than 3 days (in demo it's set to 60 seconds).  
+3. Chat for as long as you wish until there's no new response from either party for longer than 3 days (in demo it's set to 60 seconds).
 
 ![Make a post](https://raw.githubusercontent.com/redis-developer/BlobChat/main/public/1_index_screenshot.png)
 
@@ -20,7 +20,7 @@ The local server/client setup to support a web application.
 # Redis Modules
 
 - Redis - to store posts and chat messages
-- RediSearch - to index and explore potential matches.
+-Redis Search- to index and explore potential matches.
 
 
 # Build Locally
@@ -69,30 +69,30 @@ Now you can go to http://localhost:5000/ to start.
 
 # Redis Command Explained
 
-### Posts (Redis Hash, RediSearch)
-**FT.CREATE**  
-Create a RediSearch index on all posts (key prefix `post`) and make the content of the posts full-text searchable.  
+### Posts (Redis Hash, Redis Search)
+**FT.CREATE**
+Create aRedis Searchindex on all posts (key prefix `post`) and make the content of the posts full-text searchable.
 e.g. `Redis: FT.CREATE posts_idx ON HASH PREFIX 1 post SCHEMA content TEXT`
 
-**HSET**  
-When user creates a new post, store the content with the username.  
+**HSET**
+When user creates a new post, store the content with the username.
 e.g. `Redis: HSET post_CookieMonster username CookieMonster content "A brown fox jumps over the fence."`
 
-**FT.SEARCH**  
-Search among existing posts in RedisSearch for similar posts.  
+**FT.SEARCH**
+Search among existing posts in Redis Search for similar posts.
 e.g. `Redis: FT.SEARCH posts_idx "what | a | lovely | day"`
 
 ### Chat (Redis List)
-**RPUSH**  
-Add a new message to the bottom of the chat history between two users.  
+**RPUSH**
+Add a new message to the bottom of the chat history between two users.
 e.g. `Redis: RPUSH messages fromUser:toUser:Hi`
 
-**EXPIRE**  
-Set the conversation history to expire.  
+**EXPIRE**
+Set the conversation history to expire.
 e.g. `Redis: EXPIRE messages 60`
 
-**LRANGE**  
-Retrieves all chat messages from Redis.  
+**LRANGE**
+Retrieves all chat messages from Redis.
 e.g. `Redis: LRANGE messages 0 -1`
 
 # Tech Debt
@@ -107,6 +107,6 @@ and make better recommendations.
 * Pushing the enter button on a keyboard does not send the message, only the UI button does.
 
 # Reference
-Used [CSS style sheet](https://bbbootstrap.com/snippets/simple-chat-application-57631463) as a css starter.  
+Used [CSS style sheet](https://bbbootstrap.com/snippets/simple-chat-application-57631463) as a css starter.
 Blob icon is created via [Blobs.app](https://blobs.app/?e=6&gw=6&se=3&g=eecda3|ef629f&o=0).
 [Color palette](https://coolors.co/f6bd60-f7ede2-f5cac3-84a59d-f28482).
